@@ -14,9 +14,9 @@ int main() {
     double volume;
 
     // input
-    std::cout << "Enter the radius (mm): ";
+    std::cout << "Enter the radius of the cone (mm): ";
     std::cin >> radius;
-    std::cout << "Enter the height (mm): ";
+    std::cout << "Enter the height of the cone (mm): ";
     std::cin >> height;
 
     // process
@@ -28,5 +28,6 @@ int main() {
         volume << " mm³. " << std::ends;
     std::cout << std::endl;
     std::cout << std::endl;
+
     std::cout << "Done." << std::ends;
 }
